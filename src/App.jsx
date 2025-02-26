@@ -13,7 +13,7 @@ function App() {
   }
   const [tasks, setTasks] = useState([]);
   function addTask(newTask) {
-    setTasks([...tasks, newTask]);
+    setTasks((prevTasks) => [...prevTasks, newTask]);
     setShowhead(<Head nexthead={nexthead} />);
   }
 
