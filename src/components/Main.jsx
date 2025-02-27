@@ -1,7 +1,7 @@
 import Task from "./Task";
 function Main({ tasks }) {
   return (
-    <div className="w-full flex flex-col items-center h-[70%] bg-[#171b2f] drop-shadow-[0px_-50px_50px_rgba(50,50,100,0.4)] max-md:h-[50%]">
+    <div className="w-full flex flex-col items-center h-[70%] bg-[#171b2f] rounded-b-xl drop-shadow-[0px_-50px_50px_rgba(50,50,100,0.4)] max-md:h-[50%]">
       <div className="flex w-[95%] justify-between mt-4">
         <p className="text-white font-bold">Filter by Month</p>
         <select className="rounded-xl py-1 px-6 h-[30px] font-bold">
