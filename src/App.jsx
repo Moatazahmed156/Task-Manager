@@ -18,8 +18,8 @@ function App() {
   }
 
   return (
-    <div className="w-[650px] min-h-[95vh] my-5 bg-[#171b2f] max-md:w-[350px]">
-      <div className="bg-[#171a2f] w-[100%] h-[27vh] justify-center  flex flex-col items-center max-md:h-[45vh]">
+    <div className="w-[650px] min-h-[95vh] rounded-xl my-5 bg-[#171b2f] max-md:w-[350px]">
+      <div className="bg-[#171a2f] w-[100%] h-[27vh] justify-center rounded-xl flex flex-col items-center max-md:h-[45vh]">
         {showhead}
       </div>
       <Main tasks={tasks} />
