@@ -18,10 +18,6 @@ A simple and efficient task management application built with React. This app al
 
 ## Installation
 
-### Clone the Repository
-
-First, clone the repository:
-
 ```bash
 git clone https://github.com/your-username/react-task-manager.git
 cd react-task-manager
